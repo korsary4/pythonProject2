@@ -86,7 +86,7 @@ class ShopView(View):
             }
         ]
 
-        product_on_page = 2
+        product_on_page = 8
         paginator = Paginator(products_list, product_on_page)
 
 
@@ -109,3 +109,11 @@ class CartView(View):
         contex = {}
         contex.update(INFO)
         return render(request, 'shop_1/cart.html', contex)
+
+class WishListView(View):
+
+    def get(self, request):
+
+        contex = {}
+        contex.update(INFO)
+        return render(request, 'shop_1/wishlist.html', contex)
