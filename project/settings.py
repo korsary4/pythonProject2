@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'common',
     'login',
     'Shop',
+    'shop_1',
     #'accounts',
  #   'airtrans'
 ]
