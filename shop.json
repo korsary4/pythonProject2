@@ -1,0 +1,51 @@
+[
+{
+  "model": "Shop.user",
+  "pk": "kondratev.vs@ya.ru",
+  "fields": {
+    "first_name": "Vitalii",
+    "last_name": "kondratev",
+    "phone_number": null,
+    "sex": "1",
+    "city": "Berlin",
+    "age": 18
+  }
+},
+{
+  "model": "Shop.user",
+  "pk": "sadsa@ya.ru",
+  "fields": {
+    "first_name": "Vitalii",
+    "last_name": "kondratev",
+    "phone_number": null,
+    "sex": null,
+    "city": "Berlin",
+    "age": 18
+  }
+},
+{
+  "model": "Shop.product",
+  "pk": 1,
+  "fields": {
+    "name": "apple",
+    "type": "1"
+  }
+},
+{
+  "model": "Shop.product",
+  "pk": 2,
+  "fields": {
+    "name": "orange",
+    "type": "1"
+  }
+},
+{
+  "model": "Shop.cart",
+  "pk": 1,
+  "fields": {
+    "user": "kondratev.vs@ya.ru",
+    "product": 1,
+    "create_at": "2020-10-28T17:31:58.069Z"
+  }
+}
+]

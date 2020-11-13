@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Приветствую вас на моем первом Django приложении</h1>
+<BR><BR>
+My first name is {{ first_name }}. My last name is {{ last_name }}.
+<BR><BR>
+
+<img src="{% static 'common/welcom.jpeg' %}">
+
+    path('shop/', ShopView.as_view(), name='shop'),
+
+</body>
+</html>

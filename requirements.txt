@@ -1,0 +1,13 @@
+Django==3.0.3
+filelock==3.0.12
+get==2019.4.13
+idna==2.9
+pep8==1.7.1
+post==2019.4.13
+pytz==2019.3
+request==2019.4.13
+requests==2.23.0
+six==1.15.0
+sqlparse==0.3.0
+urllib3==1.25.8
+virtualenv==20.0.33

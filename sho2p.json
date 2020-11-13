@@ -1,0 +1,26 @@
+[
+{
+  "model": "Shop.user",
+  "pk": "kondratev.vs@ya.ru",
+  "fields": {
+    "first_name": "Vitalii",
+    "last_name": "kondratev",
+    "phone_number": null,
+    "sex": "1",
+    "city": "Berlin",
+    "age": 18
+  }
+},
+{
+  "model": "Shop.user",
+  "pk": "sadsa@ya.ru",
+  "fields": {
+    "first_name": "Vitalii",
+    "last_name": "kondratev",
+    "phone_number": null,
+    "sex": null,
+    "city": "Berlin",
+    "age": 18
+  }
+}
+]
